@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HIGH - LVL DAILY · The culture's daily show</title>
+<meta name="description" content="30 minutes a day to keep you in the know on all things AI, culture, and money, decoded by 19Keys. Weekdays 4:44pm PT. A HIGH - LVL NETWORK production.">
+<meta name="theme-color" content="#0B0B09">
+<link rel="canonical" href="https://19keys.com/daily">
+<link rel="icon" type="image/png" href="assets/02_avatar_512.png">
+<link rel="apple-touch-icon" href="assets/02_avatar_512.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HIGH - LVL DAILY">
+<meta property="og:title" content="HIGH - LVL DAILY · The culture's daily show">
+<meta property="og:description" content="30 minutes a day to keep you in the know on all things AI, culture, and money, decoded by 19Keys. Weekdays 4:44pm PT.">
+<meta property="og:url" content="https://19keys.com/daily">
+<meta property="og:image" content="https://19keys.com/daily/assets/01_wordmark_dark.png">
+<meta property="og:image:width" content="2000">
+<meta property="og:image:height" content="1000">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@highlvldaily">
+<meta name="twitter:title" content="HIGH - LVL DAILY · The culture's daily show">
+<meta name="twitter:description" content="30 minutes a day to keep you in the know on all things AI, culture, and money, decoded by 19Keys. Weekdays 4:44pm PT.">
+<meta name="twitter:image" content="https://19keys.com/daily/assets/01_wordmark_dark.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Inter+Tight:wght@700;800&family=Manrope:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://19keys.com/daily#org",
+      "name": "High - Lvl Media",
+      "alternateName": "HIGH - LVL NETWORK",
+      "url": "https://19keys.com/daily",
+      "logo": "https://19keys.com/daily/assets/02_avatar_512.png",
+      "email": "19keys@19keys.com",
+      "sameAs": ["https://x.com/highlvldaily", "https://instagram.com/highlvldaily", "https://youtube.com/@19keys", "https://19keys.com", "https://ziion.io"]
+    },
+    {
+      "@type": "TVSeries",
+      "@id": "https://19keys.com/daily#series",
+      "name": "HIGH - LVL DAILY",
+      "alternateName": "High - Lvl Daily",
+      "description": "30 minutes a day to keep you in the know on all things AI, culture, and money, decoded by 19Keys.",
+      "url": "https://19keys.com/daily",
+      "image": "https://19keys.com/daily/assets/01_wordmark_dark.png",
+      "genre": ["News", "Culture", "Technology", "Talk"],
+      "inLanguage": "en",
+      "startDate": "2026-10-05",
+      "actor": [{ "@type": "Person", "name": "19Keys", "url": "https://19keys.com" }, { "@type": "Person", "name": "B. Amechi", "url": "https://cnfdnt.co" }],
+      "productionCompany": { "@id": "https://19keys.com/daily#org" },
+      "publisher": { "@id": "https://19keys.com/daily#org" }
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://19keys.com/daily#broadcast",
+      "name": "HIGH - LVL DAILY · Weekdays 4:44pm PT",
+      "description": "A 30-minute weekday news and culture desk show. Live or same-day pre-recorded; every episode releases at 4:44pm PT (7:44pm ET).",
+      "isLiveBroadcast": true,
+      "startDate": "2026-10-05T16:44:00-07:00",
+      "endDate": "2026-10-05T17:14:00-07:00",
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": ["https://schema.org/Monday", "https://schema.org/Tuesday", "https://schema.org/Wednesday", "https://schema.org/Thursday", "https://schema.org/Friday"],
+        "startTime": "16:44:00",
+        "endTime": "17:14:00",
+        "duration": "PT30M",
+        "repeatFrequency": "P1D",
+        "scheduleTimezone": "America/Los_Angeles",
+        "startDate": "2026-10-05"
+      },
+      "workPerformed": { "@id": "https://19keys.com/daily#series" },
+      "publishedOn": { "@type": "BroadcastService", "name": "HIGH - LVL NETWORK", "url": "https://youtube.com/@19keys" },
+      "organizer": { "@id": "https://19keys.com/daily#org" }
+    }
+  ]
+}
+</script>
+
+<style>
+/* ============================================================
+   HIGH - LVL DAILY · site styles
+   Palette: Ink / Paper / Red (one pop) / Archive Gold / Platinum
+   Segment fields: Oxblood (POLITICS) · Ultramarine (TECH NEWS) · Malachite (CULTURE)
+   ============================================================ */
+:root{
+  --ink:#0B0B09; --ink-2:#121210; --ink-3:#1A1A17;
+  --paper:#F0EEE6; --plat:#D9D8D2; --plat-40:rgba(217,216,210,.4); --plat-18:rgba(217,216,210,.18); --plat-10:rgba(217,216,210,.1);
+  --red:#E8302A; --gold:#A49358; --gold2:#D6C27A; --ox:#3D0606; --ultra:#002FA7; --mal:#0B6B4B;
+  --mich:'Michroma','Eurostile','Bank Gothic','Orbitron',system-ui,sans-serif;
+  --disp:'Inter Tight','Inter','Helvetica Neue',Helvetica,Arial,sans-serif;
+  --body:'Manrope','Inter','Helvetica Neue',Helvetica,Arial,sans-serif;
+  --mono:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace;
+  --gutter:clamp(18px,4vw,64px);
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--ink);color:var(--paper);-webkit-text-size-adjust:100%;scroll-behavior:auto}
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+.lenis.lenis-stopped{overflow:hidden}
+body{font-family:var(--body);font-weight:400;font-size:16px;line-height:1.55;background:var(--ink);color:var(--paper);overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body.has-cursor,body.has-cursor a,body.has-cursor button,body.has-cursor input,body.has-cursor select,body.has-cursor textarea,body.has-cursor label{cursor:none}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+::selection{background:var(--red);color:var(--paper)}
+:focus-visible{outline:1px solid var(--gold2);outline-offset:3px}
+
+/* type utilities */
+.eyebrow{font-family:var(--mich);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold2);line-height:1.4}
+.mono{font-family:var(--mono);font-weight:500;font-size:11px;letter-spacing:.14em;text-transform:uppercase;line-height:1.4}
+.h-disp{font-family:var(--disp);font-weight:800;letter-spacing:-.04em;line-height:.92;text-transform:uppercase}
+.h2{font-family:var(--disp);font-weight:800;letter-spacing:-.035em;line-height:.95;font-size:clamp(38px,5.6vw,86px);text-transform:uppercase}
+.h3{font-family:var(--disp);font-weight:700;letter-spacing:-.03em;line-height:1;font-size:clamp(24px,3vw,40px)}
+.lede{font-size:clamp(17px,1.5vw,22px);line-height:1.5;color:var(--plat);max-width:34ch;font-weight:400}
+.muted{color:var(--plat-40)}
+.red{color:var(--red)}
+.sq{display:inline-block;width:.42em;height:.42em;background:var(--red);vertical-align:baseline;margin-left:.12em}
+.rule{height:1px;background:var(--gold);opacity:.7}
+.rule-plat{height:1px;background:var(--plat-18)}
+
+/* grain */
+.grain{position:fixed;inset:-20%;width:140%;height:140%;pointer-events:none;z-index:90;opacity:.055;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .95 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation:grain 1.2s steps(4) infinite}
+@keyframes grain{0%{transform:translate(0,0)}25%{transform:translate(-3%,2%)}50%{transform:translate(2%,-3%)}75%{transform:translate(-1%,-1%)}100%{transform:translate(0,0)}}
+
+/* cursor (desktop, fine pointer only) */
+.cur-dot,.cur-ring{position:fixed;top:0;left:0;pointer-events:none;z-index:1000;border-radius:50%;display:none;will-change:transform}
+.cur-dot{width:6px;height:6px;background:var(--red);margin:-3px 0 0 -3px}
+.cur-ring{width:34px;height:34px;border:1px solid var(--plat-40);margin:-17px 0 0 -17px;transition:width .25s var(--ease),height .25s var(--ease),margin .25s var(--ease),border-color .25s,background-color .25s}
+.cur-ring.is-hover{width:56px;height:56px;margin:-28px 0 0 -28px;border-color:var(--red);background:rgba(232,48,42,.06)}
+.cur-ring.is-text{width:2px;height:28px;border-radius:1px;margin:-14px 0 0 -1px;border-color:var(--red);background:var(--red)}
+@media (hover:hover) and (pointer:fine){.cur-dot,.cur-ring{display:block}}
+
+/* top strip */
+.top{position:fixed;top:0;left:0;right:0;z-index:80;display:flex;align-items:center;justify-content:space-between;padding:14px var(--gutter);pointer-events:none;transition:color .4s}
+@media (min-width:821px){.top{padding-right:calc(var(--gutter) + 300px)}}
+body.on-paper .top{color:var(--ink)}
+body.on-paper .wm{color:var(--ink)}
+body.on-paper .top-links a{color:var(--ink)}
+.top>*{pointer-events:auto}
+.top .brand{display:flex;align-items:baseline;gap:10px}
+.wm{display:inline-block;line-height:1;color:var(--paper)}
+.wm-l1{font-family:var(--mich);font-size:.34em;letter-spacing:.2em;line-height:1;white-space:nowrap;text-transform:uppercase}
+.wm-l2{font-family:var(--disp);font-weight:800;font-size:1.55em;letter-spacing:-.04em;line-height:.86;margin:.09em 0 0 -.05em;white-space:nowrap;text-transform:uppercase}
+.wm-l2 .dot{display:inline-block;background:var(--red);width:.17em;height:.17em;margin-left:.1em;vertical-align:baseline}
+.top .wm{font-size:22px}
+.top-links{display:flex;gap:26px;align-items:center}
+.top-links a{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--plat);position:relative;padding:4px 0}
+.top-links a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;background:var(--red);transition:right .35s var(--ease)}
+.top-links a:hover::after{right:0}
+@media (max-width:820px){.top-links{display:none}}
+
+/* HUD clock */
+.hud{position:fixed;top:14px;right:var(--gutter);z-index:85;display:flex;align-items:center;gap:12px;padding:8px 10px 8px 12px;border:1px solid var(--plat-18);background:rgba(11,11,9,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--plat)}
+.hud .lbl{color:var(--gold2);font-family:var(--mich);font-size:9px;letter-spacing:.2em}
+.hud .t{font-variant-numeric:tabular-nums;min-width:9.5ch;text-align:right}
+.hud .pip{width:7px;height:7px;background:var(--plat-40)}
+.hud.is-live{border-color:var(--red)}
+.hud.is-live .pip{background:var(--red);animation:pip 1.1s ease-in-out infinite}
+.hud.is-live .lbl{color:var(--red)}
+@keyframes pip{0%,100%{opacity:1}50%{opacity:.25}}
+@media (max-width:820px){.top{padding:12px 16px}.hud{top:12px;right:16px;padding:7px 9px 7px 10px}.hud .lbl{display:none}.hud .t{min-width:0}}
+
+/* sections */
+section{position:relative;scroll-margin-top:72px}
+.wrap{padding-inline:var(--gutter)}
+.sec{padding-block:clamp(72px,10vw,150px)}
+.sec-head{display:grid;grid-template-columns:1fr;gap:18px;margin-bottom:clamp(36px,5vw,72px)}
+.sec-head .eyebrow{display:flex;align-items:center;gap:14px}
+.sec-head .eyebrow::before{content:"";width:28px;height:1px;background:var(--gold)}
+@media (min-width:900px){.sec-head{grid-template-columns:minmax(0,7fr) minmax(0,5fr);align-items:end;gap:48px}.sec-head .lede{justify-self:end}}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.rv.in{opacity:1;transform:none}
+.rv-d1{transition-delay:.08s}.rv-d2{transition-delay:.16s}.rv-d3{transition-delay:.24s}
+
+/* ============================ HERO ============================ */
+.hero{position:relative;min-height:100svh;min-height:100vh;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;background:var(--ink)}
+.diptych{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr;gap:2px}
+.diptych figure{position:relative;overflow:hidden;background:var(--ink-2)}
+.diptych img{width:100%;height:118%;object-fit:cover;object-position:50% 18%;filter:grayscale(.35) contrast(1.06) brightness(.72);will-change:transform;transform:translate3d(0,0,0)}
+.diptych figure::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,11,9,.15) 0%,rgba(11,11,9,.1) 40%,rgba(11,11,9,.92) 100%)}
+.diptych .div{position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--gold);opacity:.6;transform:translateX(-.5px)}
+/* HERO_VIDEO_SLOT lives directly inside .hero (see below) */
+.hero-top{position:absolute;top:calc(28px + 44px);left:var(--gutter);right:var(--gutter);display:flex;justify-content:space-between;align-items:flex-start;z-index:3}
+.hero-top .mono{color:var(--plat)}
+.hero-copy{position:relative;z-index:3;padding:0 var(--gutter) clamp(28px,4vw,56px)}
+.kin{font-family:var(--disp);font-weight:800;letter-spacing:-.045em;line-height:.86;text-transform:uppercase;font-size:clamp(40px,11.4vw,196px);will-change:transform}
+.kin .ln{display:block;white-space:nowrap;will-change:transform}
+.kin .ln:nth-child(2){padding-left:.9em}
+@media (max-width:600px){.kin .ln:nth-child(2){padding-left:.25em}.hero-top{top:76px;justify-content:flex-end}.hero-top .mono:first-child{display:none}}
+.kin .ln .sq{width:.16em;height:.16em;margin-left:.08em}
+.kin .outl{color:transparent;-webkit-text-stroke:1px var(--plat);text-stroke:1px var(--plat)}
+.hero-row{display:grid;grid-template-columns:1fr;gap:22px;margin-top:clamp(22px,3vw,40px);align-items:end}
+@media (min-width:900px){.hero-row{grid-template-columns:minmax(0,6fr) minmax(0,6fr)}}
+.hero-row .lede{max-width:40ch;color:var(--paper)}
+.hero-meta{display:flex;flex-wrap:wrap;gap:12px 28px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--plat)}
+.hero-meta b{font-weight:500;color:var(--paper)}
+@media (min-width:900px){.hero-meta{justify-content:flex-end}}
+.ticker{position:relative;z-index:3;border-top:1px solid var(--plat-18);border-bottom:1px solid var(--plat-18);overflow:hidden;background:var(--ink)}
+.ticker .track{display:flex;width:max-content;animation:tick 42s linear infinite}
+.ticker:hover .track{animation-play-state:paused}
+.ticker span{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--plat);padding:12px 26px;white-space:nowrap;display:flex;align-items:center;gap:14px}
+.ticker i{display:inline-block;width:8px;height:8px;background:var(--plat-40)}
+.ticker i.ultra{background:var(--ultra)}.ticker i.mal{background:var(--mal)}.ticker i.ox{background:#7a1010}.ticker i.gold{background:var(--gold)}.ticker i.red{background:var(--red)}.ticker i.plat{background:var(--plat)}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* ============================ MANIFESTO (pinned reveal) ============================ */
+.pin{height:260vh;position:relative}
+.pin .sticky{position:sticky;top:0;height:100vh;height:100svh;display:flex;align-items:center;padding-inline:var(--gutter)}
+.pin .inner{max-width:1200px}
+.words{font-family:var(--disp);font-weight:700;letter-spacing:-.035em;line-height:1.02;font-size:clamp(30px,5.4vw,84px);color:var(--paper)}
+.words .w{display:inline-block;opacity:.12;transition:opacity .35s linear;margin-right:.24em}
+.words .w.on{opacity:1}
+.words .w.k{color:var(--red)}
+.pin .eyebrow{margin-bottom:28px}
+
+/* ============================ STATS ============================ */
+.stats{border-top:1px solid var(--plat-18);border-bottom:1px solid var(--plat-18)}
+.stats-grid{display:grid;grid-template-columns:repeat(2,1fr)}
+@media (min-width:900px){.stats-grid{grid-template-columns:repeat(5,1fr)}}
+.stat{padding:clamp(28px,3.4vw,52px) var(--gutter);border-right:1px solid var(--plat-18);border-bottom:1px solid var(--plat-18);position:relative;overflow:hidden}
+.stat:nth-child(2n){border-right:0}
+@media (min-width:900px){.stat{border-bottom:0}.stat:nth-child(2n){border-right:1px solid var(--plat-18)}.stat:last-child{border-right:0}}
+.stat:last-child:nth-child(odd){grid-column:1 / -1;border-right:0}
+@media (min-width:900px){.stat:last-child:nth-child(odd){grid-column:auto}}
+.stat .n{font-family:var(--disp);font-weight:800;letter-spacing:-.045em;line-height:1;font-size:clamp(44px,5.4vw,84px);font-variant-numeric:tabular-nums;color:var(--paper)}
+.stat .n sup{font-size:.42em;vertical-align:top;top:.1em;position:relative;color:var(--red);font-weight:700;letter-spacing:0}
+.stat .l{margin-top:12px;color:var(--plat-40)}
+.stat::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--gold);transition:width 1.6s var(--ease)}
+.stat.in::after{width:100%}
+
+/* ============================ RUNDOWN ============================ */
+.rd{display:grid;grid-template-columns:1fr;gap:2px}
+@media (min-width:700px){.rd{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1100px){.rd{grid-template-columns:repeat(4,1fr)}}
+.seg{position:relative;min-height:clamp(170px,26vw,240px);padding:22px 22px 20px;background:var(--ink-2);border:1px solid var(--plat-10);display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;transition:transform .5s var(--ease),border-color .4s}
+.seg::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--seg,var(--plat-40));transition:width .5s var(--ease)}
+.seg:hover{transform:translateY(-4px);border-color:var(--plat-40)}
+.seg:hover::before{width:8px}
+.seg .no{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--plat-40);display:flex;justify-content:space-between}
+.seg .no b{font-weight:500;color:var(--gold2)}
+.seg .t{font-family:var(--disp);font-weight:800;letter-spacing:-.035em;line-height:.95;font-size:clamp(28px,2.6vw,40px);text-transform:uppercase;margin-top:18px;color:var(--paper)}
+.seg .who{margin-top:10px;color:var(--plat);font-size:14px}
+.seg .who small{display:block;color:var(--plat-40);font-size:12px;margin-top:4px}
+.seg.field{background:var(--seg)}
+.seg.field .no,.seg.field .no b,.seg.field .who,.seg.field .who small{color:rgba(240,238,230,.75)}
+.seg.field::before{background:rgba(240,238,230,.5)}
+.seg.gold{--seg:var(--gold)}
+.seg.gold.field .t{color:var(--ink)}.seg.gold.field .no,.seg.gold.field .no b,.seg.gold.field .who,.seg.gold.field .who small{color:rgba(11,11,9,.7)}.seg.gold.field::before{background:rgba(11,11,9,.5)}
+.seg.plat{--seg:var(--plat)}
+.seg.plat.field .t{color:var(--ink)}.seg.plat.field .no,.seg.plat.field .no b,.seg.plat.field .who,.seg.plat.field .who small{color:rgba(11,11,9,.7)}.seg.plat.field::before{background:rgba(11,11,9,.5)}
+.seg.paper{--seg:var(--paper)}
+.seg.red{--seg:var(--red)}
+.seg.ad{--seg:var(--plat-18);background:transparent;border-style:dashed}
+.seg.ad .t{font-size:clamp(20px,1.8vw,26px);color:var(--plat-40)}
+.seg.news{grid-column:1 / -1;--seg:var(--red)}
+@media (min-width:1100px){.seg.news{grid-column:span 2}.seg.wide{grid-column:span 2}}
+.news-blocks{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:18px}
+.blk{padding:14px 12px;min-height:96px;display:flex;flex-direction:column;justify-content:space-between;transition:transform .45s var(--ease)}
+.blk:hover{transform:translateY(-3px)}
+.blk .eyebrow{color:rgba(240,238,230,.85)}
+.blk .t2{font-family:var(--disp);font-weight:800;letter-spacing:-.03em;line-height:.95;font-size:clamp(16px,1.6vw,24px);text-transform:uppercase;margin-top:12px}
+.blk.ultra{background:var(--ultra)}.blk.mal{background:var(--mal)}.blk.ox{background:var(--ox)}
+.rd-note{margin-top:22px;display:flex;flex-wrap:wrap;gap:8px 28px;color:var(--plat-40)}
+@media (max-width:480px){.news-blocks{grid-template-columns:1fr}}
+
+/* ============================ HOSTS ============================ */
+.hosts{display:grid;grid-template-columns:1fr;gap:40px}
+@media (min-width:900px){.hosts{grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:64px;align-items:start}}
+.host-pics{display:grid;grid-template-columns:1fr 1fr;gap:2px}
+.host-pics figure{position:relative;overflow:hidden;aspect-ratio:3/4;background:var(--ink-2)}
+.host-pics img{width:100%;height:100%;object-fit:cover;object-position:50% 15%;filter:grayscale(.55) contrast(1.05);transition:filter .7s var(--ease),transform 1.2s var(--ease)}
+.host-pics figure:hover img{filter:grayscale(0) contrast(1.02);transform:scale(1.03)}
+.host-pics figure::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 1px var(--plat-10);pointer-events:none}
+.host-pics figcaption{position:absolute;left:14px;bottom:12px;font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--plat);text-transform:uppercase;opacity:.85}
+.host{padding:28px 0;border-top:1px solid var(--gold)}
+.host:first-child{border-top-width:1px}
+.host h3{font-family:var(--disp);font-weight:800;letter-spacing:-.035em;line-height:.95;font-size:clamp(34px,3.6vw,54px);text-transform:uppercase}
+.host .role{margin:10px 0 14px;color:var(--gold2)}
+.host p{color:var(--plat);font-size:15px;max-width:48ch}
+.host .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid var(--plat-40);font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);transition:border-color .3s,background .3s,color .3s;position:relative;overflow:hidden}
+.pill::before{content:"";position:absolute;inset:0;background:var(--paper);transform:translateY(101%);transition:transform .4s var(--ease);z-index:0}
+.pill:hover{color:var(--ink);border-color:var(--paper)}
+.pill:hover::before{transform:none}
+.pill>*{position:relative;z-index:1}
+.pill i{width:6px;height:6px;background:var(--red);display:inline-block}
+
+/* ============================ EPISODES ============================ */
+.eps{display:grid;grid-template-columns:1fr;gap:2px}
+@media (min-width:640px){.eps{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1100px){.eps{grid-template-columns:repeat(3,1fr)}}
+.ep{background:var(--ink-2);border:1px solid var(--plat-10);display:flex;flex-direction:column;transition:transform .5s var(--ease),border-color .4s}
+.ep:hover{transform:translateY(-4px);border-color:var(--plat-40)}
+.ep .frame{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--ink-3);border-bottom:1px solid var(--plat-10)}
+.ep .frame .bar{position:absolute;left:0;right:0;top:0;height:3px;background:var(--red)}
+.ep .frame .big{position:absolute;left:16px;bottom:10px;font-family:var(--disp);font-weight:800;font-size:clamp(56px,6vw,84px);letter-spacing:-.05em;line-height:.85;color:transparent;-webkit-text-stroke:1px var(--plat-40);text-stroke:1px var(--plat-40);transition:color .5s var(--ease)}
+.ep:hover .frame .big{color:var(--paper);-webkit-text-stroke-color:var(--paper)}
+.ep .frame .date{position:absolute;right:14px;top:16px;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--plat)}
+.ep .body{padding:18px 18px 16px;display:flex;flex-direction:column;gap:14px;flex:1}
+.ep h4{font-family:var(--disp);font-weight:700;letter-spacing:-.03em;line-height:1.05;font-size:22px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;padding:5px 8px;color:var(--paper);background:var(--ink-3);border:1px solid var(--plat-10)}
+.chip.ultra{background:var(--ultra);border-color:transparent}.chip.mal{background:var(--mal);border-color:transparent}.chip.ox{background:var(--ox);border-color:transparent}.chip.gold{background:var(--gold);color:var(--ink);border-color:transparent}.chip.plat{background:var(--plat);color:var(--ink);border-color:transparent}
+.ep .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;padding-top:8px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:12px 18px;background:var(--paper);color:var(--ink);font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;border:1px solid var(--paper);position:relative;overflow:hidden;transition:color .3s;cursor:pointer}
+.btn::before{content:"";position:absolute;inset:0;background:var(--red);transform:translateX(-101%);transition:transform .45s var(--ease)}
+.btn:hover{color:var(--paper);border-color:var(--red)}
+.btn:hover::before{transform:none}
+.btn>*{position:relative;z-index:1}
+.btn.ghost{background:transparent;color:var(--paper);border-color:var(--plat-40)}
+.btn.ghost::before{background:var(--paper)}
+.btn.ghost:hover{color:var(--ink);border-color:var(--paper)}
+.btn.sm{padding:9px 13px;font-size:10px}
+.btn .arr{display:inline-block;width:14px;height:1px;background:currentColor;position:relative}
+.btn .arr::after{content:"";position:absolute;right:0;top:-3px;width:6px;height:6px;border-top:1px solid currentColor;border-right:1px solid currentColor;transform:rotate(45deg)}
+
+/* ============================ WATCH ============================ */
+.plat-row{display:flex;flex-wrap:wrap;gap:8px}
+.plat-row .pill{padding:14px 20px;font-size:12px}
+.watch-head{display:flex;flex-wrap:wrap;gap:16px 40px;align-items:baseline;justify-content:space-between;margin-bottom:28px}
+
+/* ============================ FORMS ============================ */
+form{display:grid;gap:2px;align-content:start}
+.fld{position:relative;background:var(--ink-2);border:1px solid var(--plat-10);transition:border-color .3s}
+.fld:focus-within{border-color:var(--gold2)}
+.fld label{position:absolute;left:14px;top:10px;font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--plat-40);pointer-events:none}
+.fld input,.fld select,.fld textarea{width:100%;background:transparent;border:0;padding:28px 14px 12px;outline:0;color:var(--paper);font-size:15px;-webkit-appearance:none;appearance:none;border-radius:0}
+.fld select{background-image:linear-gradient(45deg,transparent 50%,var(--plat) 50%),linear-gradient(135deg,var(--plat) 50%,transparent 50%);background-position:calc(100% - 20px) 50%,calc(100% - 15px) 50%;background-size:5px 5px,5px 5px;background-repeat:no-repeat;padding-right:40px}
+.fld select option{background:var(--ink-2);color:var(--paper)}
+.fld input::placeholder,.fld textarea::placeholder{color:var(--plat-18)}
+.f2{display:grid;grid-template-columns:1fr;gap:2px}
+@media (min-width:640px){.f2{grid-template-columns:1fr 1fr}}
+.chk{display:flex;align-items:center;gap:12px;padding:16px 14px;background:var(--ink-2);border:1px solid var(--plat-10);font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--plat);cursor:pointer}
+.chk input{width:14px;height:14px;padding:0;-webkit-appearance:none;appearance:none;border:1px solid var(--plat-40);background:transparent;position:relative;flex:none}
+.chk input:checked{background:var(--red);border-color:var(--red)}
+.f-foot{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px;margin-top:14px}
+.f-msg{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold2);min-height:1em}
+.f-msg.ok{color:var(--red)}
+.split{display:grid;grid-template-columns:1fr;gap:40px}
+@media (min-width:1000px){.split{grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:72px}}
+.split .sticky-col{position:sticky;top:96px}
+@media (max-width:999px){.split .sticky-col{position:static}}
+
+/* ============================ ADVERTISE ============================ */
+.rate{display:grid;grid-template-columns:1fr}
+.rate .row{display:grid;grid-template-columns:1fr auto;gap:10px 20px;align-items:baseline;padding:16px 0;border-top:1px solid var(--plat-18);transition:padding-left .4s var(--ease)}
+.rate .row:hover{padding-left:10px}
+.rate .row:last-child{border-bottom:1px solid var(--plat-18)}
+.rate .row .n{font-family:var(--disp);font-weight:700;font-size:clamp(18px,1.7vw,24px);letter-spacing:-.02em;line-height:1.05}
+.rate .row .n small{display:block;font-family:var(--body);font-weight:400;font-size:13px;color:var(--plat-40);margin-top:4px;letter-spacing:0}
+.rate .row .p{font-family:var(--mono);font-size:13px;letter-spacing:.06em;color:var(--paper);white-space:nowrap;font-variant-numeric:tabular-nums}
+.rate .row .p em{font-style:normal;color:var(--plat-40);font-size:11px;margin-left:6px}
+.rate .row.pkg .n{color:var(--gold2)}
+.rate .row.free .p{color:var(--red)}
+.rate-h{margin:28px 0 8px}
+.rate-h:first-child{margin-top:0}
+
+/* ============================ INVEST ============================ */
+.invest{background:var(--paper);color:var(--ink)}
+.invest .eyebrow{color:var(--gold)}
+.invest .sec-head .eyebrow::before{background:var(--gold)}
+.invest .lede,.invest p{color:#3a3a35}
+.invest .fld{background:transparent;border-color:rgba(11,11,9,.18)}
+.invest .fld:focus-within{border-color:var(--ink)}
+.invest .fld input,.invest .fld select,.invest .fld textarea{color:var(--ink)}
+.invest .fld select{background-image:linear-gradient(45deg,transparent 50%,var(--ink) 50%),linear-gradient(135deg,var(--ink) 50%,transparent 50%)}
+.invest .fld select option{background:var(--paper);color:var(--ink)}
+.invest .fld label{color:rgba(11,11,9,.5)}
+.invest .btn{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.invest .btn.ghost{background:transparent;color:var(--ink);border-color:rgba(11,11,9,.4)}
+.invest .btn.ghost::before{background:var(--ink)}
+.invest .btn.ghost:hover{color:var(--paper);border-color:var(--ink)}
+.invest .f-msg{color:var(--ink)}
+.invest .f-msg.ok{color:var(--red)}
+.invest .rule{background:var(--gold);opacity:1}
+.invest .big-p{font-family:var(--disp);font-weight:700;letter-spacing:-.03em;line-height:1.08;font-size:clamp(22px,2.6vw,36px);max-width:26ch;color:var(--ink)}
+.invest .big-p b{color:var(--red);font-weight:700}
+.props{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;margin-top:32px}
+@media (min-width:700px){.props{grid-template-columns:repeat(3,1fr)}}
+.prop{padding:16px 14px;border:1px solid rgba(11,11,9,.16);transition:background .35s,color .35s}
+.prop:hover{background:var(--ink);color:var(--paper)}
+.prop .mono{color:var(--gold);font-size:9px}
+.prop:hover .mono{color:var(--gold2)}
+.prop .nm{font-family:var(--disp);font-weight:700;font-size:17px;letter-spacing:-.02em;margin-top:8px;line-height:1.05}
+.inv-num{margin-top:36px;display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:baseline}
+.inv-num .n{font-family:var(--disp);font-weight:800;letter-spacing:-.045em;line-height:1;font-size:clamp(52px,6vw,88px);font-variant-numeric:tabular-nums}
+.inv-num .l{color:#3a3a35;font-size:14px;max-width:22ch}
+
+/* ============================ PRESS + NEWS ============================ */
+.press{display:grid;grid-template-columns:1fr;gap:28px}
+@media (min-width:900px){.press{grid-template-columns:1fr 1fr;align-items:center}}
+.seen{display:flex;flex-wrap:wrap;gap:12px 36px;align-items:baseline}
+.seen .lg{font-family:var(--mich);font-size:clamp(14px,1.6vw,20px);letter-spacing:.14em;text-transform:uppercase;color:var(--plat)}
+.news{background:var(--ink-2);border-top:1px solid var(--plat-18);border-bottom:1px solid var(--plat-18)}
+.news .inner{display:grid;grid-template-columns:1fr;gap:28px}
+@media (min-width:900px){.news .inner{grid-template-columns:minmax(0,6fr) minmax(0,6fr);align-items:center;gap:64px}}
+.news h2{font-family:var(--disp);font-weight:800;letter-spacing:-.04em;line-height:.95;font-size:clamp(34px,4.6vw,68px);text-transform:uppercase}
+.news form{grid-template-columns:1fr auto;gap:2px}
+.news form .fld{grid-column:1}
+@media (max-width:480px){.news form{grid-template-columns:1fr}.news form .btn{justify-content:center}}
+
+/* ============================ FOOTER ============================ */
+footer{padding:clamp(48px,7vw,96px) var(--gutter) 40px;border-top:1px solid var(--gold)}
+.foot-grid{display:grid;grid-template-columns:1fr;gap:36px}
+@media (min-width:900px){.foot-grid{grid-template-columns:minmax(0,5fr) minmax(0,7fr)}}
+.foot-links{display:grid;grid-template-columns:1fr 1fr;gap:10px 24px}
+@media (min-width:640px){.foot-links{grid-template-columns:repeat(3,1fr)}}
+.foot-links a{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--plat);padding:6px 0;border-bottom:1px solid transparent;transition:color .3s,border-color .3s;display:inline-block}
+.foot-links a:hover{color:var(--paper);border-color:var(--red)}
+.foot-links .eyebrow{grid-column:1 / -1;margin-top:8px}
+.foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;margin-top:48px;padding-top:20px;border-top:1px solid var(--plat-18);color:var(--plat-40)}
+.foot-wm{font-size:64px}
+@media (max-width:480px){.foot-wm{font-size:48px}}
+.foot-wm .wm-sub{font-family:var(--mono);font-weight:500;font-size:.115em;letter-spacing:.14em;white-space:nowrap;text-transform:uppercase;opacity:.85;margin-top:.14em}
+.foot-wm .wm-rule{height:1px;background:var(--gold);margin:.14em 0 .13em}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+  .rv{opacity:1;transform:none}
+  .words .w{opacity:1}
+}
+.eps-2{grid-template-columns:repeat(2,1fr)}@media(max-width:760px){.eps-2{grid-template-columns:1fr}}
+.portal-card{border:1px solid rgba(217,216,210,.28);padding:26px 28px;background:rgba(255,255,255,.025)}
+.lock-link{color:var(--gold2,#D6C27A)}
+.hero-bg{position:absolute;inset:0;overflow:hidden;pointer-events:none}.hero-bg span{position:absolute;right:-2vw;top:50%;transform:translateY(-50%);font-family:"Inter Tight",Arial,sans-serif;font-weight:800;font-size:58vw;line-height:1;letter-spacing:-.06em;color:#F0EEE6;opacity:.035}.hero-bg i{position:absolute;left:50%;top:0;bottom:0;width:1px;background:#A49358;opacity:.35}
+</style>
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="cur-dot" aria-hidden="true"></div>
+<div class="cur-ring" aria-hidden="true"></div>
+
+<header class="top">
+  <a class="brand" href="#top" aria-label="HIGH - LVL DAILY home">
+    <span class="wm"><span class="wm-l1">HIGH - LVL</span><span class="wm-l2" style="display:block">DAILY<span class="dot"></span></span></span>
+  </a>
+  <nav class="top-links" aria-label="Sections">
+    <a href="#hosts">Hosts</a>
+    <a href="#episodes">Episodes</a>
+    <a href="#advertise">Advertise</a>
+    <a href="#invest">Invest</a>
+    <a href="#submit" class="lock-link">Pitch</a>
+  </nav>
+</header>
+
+<div class="hud" id="hud" aria-live="polite">
+  <span class="pip" aria-hidden="true"></span>
+  <span class="lbl" id="hud-lbl">Next episode</span>
+  <span class="t" id="hud-t">--:--:--</span>
+</div>
+
+<main id="top">
+
+<!-- ============================ HERO ============================ -->
+<section class="hero" id="hero">
+  <!-- HERO_VIDEO_SLOT
+       Drop a scroll-scrubbed frame sequence here later:
+       <canvas id="hero-seq" style="position:absolute;inset:0;width:100%;height:100%"></canvas>
+       Preload frames assets/seq/frame_0001.jpg ... frame_0120.jpg, then in the scroll loop
+       draw frames[Math.round(progress * (frames.length - 1))] with object-fit cover math.
+       When the canvas is live, set .diptych to display:none (or fade it out after first frame paints).
+       See README.md, "Hero video upgrade path". -->
+
+  <div class="hero-bg" aria-hidden="true"><span>HLD</span><i></i></div>
+
+  <div class="hero-top">
+    <span class="mono">A HIGH - LVL NETWORK production</span>
+    <span class="mono" style="text-align:right">Weekdays<br>4:44pm PT</span>
+  </div>
+
+  <div class="hero-copy">
+    <h1 class="kin" aria-label="The culture's daily show">
+      <span class="ln" data-kx="-0.35">The culture&rsquo;s</span>
+      <span class="ln" data-kx="0.25"><span class="outl">daily</span> show<span class="sq"></span></span>
+    </h1>
+    <div class="hero-row">
+      <p class="lede">30 minutes a day to keep you in the know on all things AI, culture, and money, decoded by 19Keys.</p>
+      <div class="hero-meta">
+        <span>Launching <b>Mon Oct 5, 2026</b></span>
+        <span>Live or same-day, <b>every episode at 4:44</b></span>
+        <span><b>7:44pm ET</b></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="track" id="ticker-track">
+      <span><i class="plat"></i>The Desk Opens</span>
+      <span><i class="red"></i>The Monologue</span>
+      <span><i class="ultra"></i>Tech News</span>
+      <span><i class="mal"></i>Culture</span>
+      <span><i class="ox"></i>Politics</span>
+      <span><i class="gold"></i>The Shoutout of the Day</span>
+      <span><i class="plat"></i>The Seat · Ziion members</span>
+      <span><i></i>The Close</span>
+      <span><i class="red"></i>Weekdays 4:44pm PT</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ MANIFESTO ============================ -->
+<section class="pin" id="manifesto">
+  <div class="sticky">
+    <div class="inner">
+      <div class="eyebrow">01 &nbsp;/&nbsp; The show</div>
+      <p class="words" id="words">Every weekday at 4:44, 19Keys sits at the desk and decodes the day. What <span class="k">AI</span> just did. What the <span class="k">culture</span> is moving on. Where the <span class="k">money</span> is going. Thirty minutes, no filler, and you leave knowing more than the people who scrolled all day.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ STATS ============================ -->
+<section class="stats" id="stats" aria-label="By the numbers">
+  <div class="stats-grid">
+    <div class="stat"><div class="n"><span data-count="60" data-suffix="M">0</span><sup>+</sup></div><div class="l mono">views</div></div>
+    <div class="stat"><div class="n"><span data-count="6" data-suffix="M">0</span></div><div class="l mono">podcast downloads</div></div>
+    <div class="stat"><div class="n"><span data-count="30000" data-format="comma">0</span><sup>+</sup></div><div class="l mono">creators in Ziion</div></div>
+    <div class="stat"><div class="n"><span data-count="17">0</span></div><div class="l mono">cities on tour</div></div>
+    <div class="stat"><div class="n"><span data-count="5">0</span></div><div class="l mono">episodes a week</div></div>
+  </div>
+</section>
+
+<!-- ============================ HOSTS ============================ -->
+<section class="sec wrap" id="hosts">
+  <div class="sec-head">
+    <div>
+      <div class="eyebrow rv">03 &nbsp;/&nbsp; The desk</div>
+      <h2 class="h2 rv rv-d1" style="margin-top:18px">Two chairs<span class="sq"></span></h2>
+    </div>
+    <p class="lede rv rv-d2">A futurist and the man who runs his world. One decodes, one keeps the desk honest.</p>
+  </div>
+  <div class="hosts">
+    <div class="host-pics rv">
+      <!-- TODO: confirm which portrait is which and swap if needed -->
+      <figure><img src="assets/host_01.jpg" alt="Host portrait" loading="lazy"><figcaption>Portrait 01</figcaption></figure>
+      <figure><img src="assets/host_02.jpg" alt="Host portrait" loading="lazy"><figcaption>Portrait 02</figcaption></figure>
+    </div>
+    <div>
+      <div class="host rv">
+        <h3>19KEYS</h3>
+        <div class="role mono">Host · Global futurist · AI educator</div>
+        <p>Host of High Lvl Conversations, past 60M views and 6M podcast downloads. Founder of Supermind, Ziion, and Project High Lvl. Seventeen cities on tour and roughly a million people on Instagram who check in daily. Now, a desk.</p>
+        <div class="links">
+          <a class="pill" href="https://19keys.com" target="_blank" rel="noopener"><i></i><span>19keys.com</span></a>
+          <a class="pill" href="https://instagram.com/highlvldaily" target="_blank" rel="noopener"><span>Instagram</span></a>
+          <a class="pill" href="https://x.com/highlvldaily" target="_blank" rel="noopener"><span>X</span></a>
+        </div>
+      </div>
+      <div class="host rv rv-d1">
+        <h3>B. AMECHI</h3>
+        <div class="role mono">Producer · Co-host, The Desk</div>
+        <p>Integrator of the 19Keys ecosystem and co-founder of High - Lvl Media. Founder of CNFDNT. He opens the desk, keeps the clock, and makes sure the show ships at 4:44 every single day.</p>
+        <div class="links">
+          <a class="pill" href="https://cnfdnt.co" target="_blank" rel="noopener"><i></i><span>cnfdnt.co</span></a>
+          <a class="pill" href="https://instagram.com/highlvldaily" target="_blank" rel="noopener"><span>Instagram</span></a>
+          <a class="pill" href="https://x.com/highlvldaily" target="_blank" rel="noopener"><span>X</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ EPISODES ============================ -->
+<section class="sec wrap" id="episodes" style="padding-top:0">
+  <div class="sec-head">
+    <div>
+      <div class="eyebrow rv">04 &nbsp;/&nbsp; Episodes</div>
+      <h2 class="h2 rv rv-d1" style="margin-top:18px">Every episode lives on YouTube<span class="sq"></span></h2>
+    </div>
+    <p class="lede rv rv-d2">4:44pm PT, every weekday, on the 19Keys channel. The latest one is always one click away.</p>
+  </div>
+  <!-- LATEST EPISODE: change LATEST_EPISODE_URL in the script at the bottom of the page. -->
+  <div class="eps eps-2">
+    <article class="ep rv">
+      <div class="frame"><div class="bar"></div><span class="date">The channel</span><span class="big">19K</span></div>
+      <div class="body"><h4>19Keys on YouTube</h4><p class="muted" style="margin:6px 0 0">Every episode of High - Lvl Daily, plus High Lvl Conversations and the full archive.</p>
+        <div class="foot"><span class="mono muted">youtube.com/@19KEYS</span><a class="btn sm" href="https://www.youtube.com/@19KEYS" target="_blank" rel="noopener"><span>Open the channel</span><span class="arr"></span></a></div></div>
+    </article>
+    <article class="ep rv rv-d1">
+      <div class="frame"><div class="bar"></div><span class="date">Latest</span><span class="big">NOW</span></div>
+      <div class="body"><h4 id="latest-title">Latest episode</h4><p class="muted" style="margin:6px 0 0" id="latest-sub">Today's desk, decoded. Updated after every show.</p>
+        <div class="foot"><span class="mono muted">4:44PM PT</span><a class="btn sm" id="latest-link" href="https://www.youtube.com/@19KEYS" target="_blank" rel="noopener"><span>Watch the latest</span><span class="arr"></span></a></div></div>
+    </article>
+  </div>
+</section>
+
+<!-- ============================ WATCH & LISTEN ============================ -->
+<section class="sec wrap" id="watch" style="padding-top:0">
+  <div class="rule-plat" style="margin-bottom:clamp(48px,6vw,80px)"></div>
+  <div class="watch-head">
+    <div>
+      <div class="eyebrow rv">05 &nbsp;/&nbsp; Watch &amp; listen</div>
+      <h2 class="h3 rv rv-d1" style="margin-top:14px;text-transform:uppercase;font-weight:800;letter-spacing:-.035em">Wherever you already are<span class="sq"></span></h2>
+    </div>
+    <span class="mono muted rv rv-d2">Video at 4:44 · audio minutes later</span>
+  </div>
+  <div class="plat-row rv rv-d1">
+    <a class="pill" href="https://youtube.com/@19keys" target="_blank" rel="noopener"><i></i><span>YouTube</span></a>
+    <a class="pill" href="https://youtube.com/@19keys" target="_blank" rel="noopener"><span>Spotify</span></a>
+    <a class="pill" href="https://youtube.com/@19keys" target="_blank" rel="noopener"><span>Apple Podcasts</span></a>
+    <a class="pill" href="https://youtube.com/@19keys" target="_blank" rel="noopener"><span>RedCircle</span></a>
+    <a class="pill" href="https://instagram.com/highlvldaily" target="_blank" rel="noopener"><span>Instagram</span></a>
+    <a class="pill" href="https://instagram.com/highlvldaily" target="_blank" rel="noopener"><span>TikTok</span></a>
+    <a class="pill" href="https://x.com/highlvldaily" target="_blank" rel="noopener"><span>X</span></a>
+    <a class="pill" href="https://ziion.io" target="_blank" rel="noopener"><span>Ziion</span></a>
+    <a class="pill" href="https://19keys.substack.com" target="_blank" rel="noopener"><span>Substack</span></a>
+  </div>
+</section>
+
+<!-- ============================ SUBMIT (PRIVATE) ============================ -->
+<section class="sec wrap" id="submit">
+  <div class="rule" style="margin-bottom:clamp(48px,6vw,80px)"></div>
+  <div class="split">
+    <div class="sticky-col">
+      <div class="eyebrow rv">06 &nbsp;/&nbsp; The desk · private</div>
+      <h2 class="h2 rv rv-d1" style="margin-top:18px">Pitch a topic.<br>Name a name<span class="sq"></span></h2>
+      <p class="lede rv rv-d2" style="margin-top:22px">This door is for members. The desk reads every submission before the huddle: nominate someone for the Shoutout of the Day, or hand 19Keys the thing he should be decoding tomorrow.</p>
+      <p class="mono muted rv rv-d3" style="margin-top:22px">Members get first look at The Seat.</p>
+    </div>
+    <div>
+      <form class="rv" id="lock-form" novalidate>
+        <div class="fld"><label for="lock-code">Access code</label><input id="lock-code" name="code" type="password" autocomplete="off" placeholder="Enter the code"></div>
+        <div class="f-foot"><button class="btn" type="submit"><span>Unlock</span><span class="arr"></span></button><span class="f-msg" id="lock-msg" aria-live="polite"></span></div>
+      </form>
+      <div id="portal" hidden>
+        <div class="portal-card rv">
+          <div class="eyebrow">The portal</div>
+          <p class="lede" style="margin-top:10px">Everything for the desk happens inside the portal: submit topics, vote, nominate, and queue for The Seat.</p>
+          <div style="margin-top:18px"><a class="btn" href="https://ziion.io" target="_blank" rel="noopener"><span>Open the portal</span><span class="arr"></span></a></div>
+        </div>
+        <p class="mono muted" style="margin:26px 0 14px">Or send it straight to the desk</p>
+        <form class="rv" data-form="topic" novalidate>
+          <div class="f2">
+            <div class="fld"><label for="t-name">Name</label><input id="t-name" name="name" type="text" required autocomplete="name"></div>
+            <div class="fld"><label for="t-email">Email</label><input id="t-email" name="email" type="email" required autocomplete="email"></div>
+          </div>
+          <div class="fld"><label for="t-topic">Topic or nominee</label><input id="t-topic" name="topic" type="text" required></div>
+          <div class="fld"><label for="t-notes">Notes</label><textarea id="t-notes" name="notes" rows="3" maxlength="600"></textarea></div>
+          <label class="chk"><input type="checkbox" name="ziion" value="Yes"><span>I&rsquo;m a member</span></label>
+          <div class="f-foot"><button class="btn" type="submit"><span>Send to the desk</span><span class="arr"></span></button><span class="f-msg" aria-live="polite"></span></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ADVERTISE ============================ -->
+<section class="sec wrap" id="advertise">
+  <div class="rule" style="margin-bottom:clamp(48px,6vw,80px)"></div>
+  <div class="sec-head">
+    <div>
+      <div class="eyebrow rv">07 &nbsp;/&nbsp; Advertise</div>
+      <h2 class="h2 rv rv-d1" style="margin-top:18px">Read by the host, heard by the culture<span class="sq"></span></h2>
+    </div>
+    <p class="lede rv rv-d2">Five shows a week, two ad breaks a show, one voice people already trust. Inventory is small on purpose.</p>
+  </div>
+  <div class="split">
+    <div>
+      <div class="rate rv">
+        <div class="eyebrow rate-h">Placements</div>
+        <div class="row"><div class="n">Host read<small>60 seconds, in the voice of the show</small></div><div class="p">$500<em>/ slot</em></div></div>
+        <div class="row"><div class="n">Desk placement<small>On set, in frame, every episode</small></div><div class="p">$1,500<em>/ wk</em></div></div>
+        <div class="row"><div class="n">Presenting sponsor<small>Open, close, and the ad plates</small></div><div class="p">$9,000<em>/ mo</em></div></div>
+        <div class="row"><div class="n">Segment title<small>Your name on Tech News, Culture, or The Seat</small></div><div class="p">$4,000<em>/ mo</em></div></div>
+        <div class="eyebrow rate-h">Packages</div>
+        <div class="row pkg"><div class="n">Presenting<small>Three-month minimum</small></div><div class="p">$18,000<em>/ mo</em></div></div>
+        <div class="row pkg"><div class="n">Segment Title<small>One segment, all month</small></div><div class="p">$6,500<em>/ mo</em></div></div>
+        <div class="row pkg"><div class="n">Read Flight<small>Ten host reads across two weeks</small></div><div class="p">$4,500</div></div>
+        <div class="row pkg free"><div class="n">30-day Spec<small>We produce a spec read. You decide after.</small></div><div class="p">Free</div></div>
+      </div>
+    </div>
+    <form class="rv rv-d1" data-form="advertise" novalidate>
+      <div class="fld"><label for="a-brand">Brand</label><input id="a-brand" name="brand" type="text" required autocomplete="organization"></div>
+      <div class="f2">
+        <div class="fld"><label for="a-budget">Budget range</label>
+          <select id="a-budget" name="budget" required>
+            <option value="">Select</option>
+            <option>Under $5,000</option>
+            <option>$5,000 to $15,000</option>
+            <option>$15,000 to $50,000</option>
+            <option>$50,000+</option>
+          </select></div>
+        <div class="fld"><label for="a-cat">Category</label><input id="a-cat" name="category" type="text" placeholder="Fintech, apparel, AI tools..."></div>
+      </div>
+      <div class="fld"><label for="a-email">Email</label><input id="a-email" name="email" type="email" required autocomplete="email"></div>
+      <div class="fld"><label for="a-notes">Notes</label><textarea id="a-notes" name="notes" rows="3" placeholder="What you want to run, when, and anything we should know"></textarea></div>
+      <div class="f-foot"><button class="btn" type="submit"><span>Request the rate card</span><span class="arr"></span></button><span class="f-msg" aria-live="polite"></span></div>
+    </form>
+  </div>
+</section>
+
+<!-- ============================ INVEST / PARTNER ============================ -->
+<section class="invest sec wrap" id="invest">
+  <div class="sec-head">
+    <div>
+      <div class="eyebrow rv">08 &nbsp;/&nbsp; Invest &amp; partner</div>
+      <h2 class="h2 rv rv-d1" style="margin-top:18px">The anchor property<span class="sq"></span></h2>
+    </div>
+    <p class="lede rv rv-d2">High - Lvl Daily is the front door to a media company that already has the audience, the products, and the rooms. Sponsor a segment, back the build, or bring a partnership to the desk.</p>
+  </div>
+  <div class="split">
+    <div>
+      <p class="big-p rv">The daily is the anchor property of an investor-ready media company built by 19Keys around one audience, one clock, and one voice people already trust. One show, five days a week, feeding every other property in the house.</p>
+      <div class="inv-num rv rv-d1">
+        <div class="n">$41<span style="font-size:.5em;letter-spacing:-.02em">K</span></div>
+        <div class="l">modeled monthly inventory at full sell-through</div>
+      </div>
+      <div class="props rv rv-d2">
+        <div class="prop"><div class="mono">Network</div><div class="nm">HIGH - LVL NETWORK</div></div>
+        <div class="prop"><div class="mono">Community</div><div class="nm">Ziion</div></div>
+        <div class="prop"><div class="mono">Program</div><div class="nm">Creator Growth</div></div>
+        <div class="prop"><div class="mono">Live</div><div class="nm">Project High Lvl</div></div>
+        <div class="prop"><div class="mono">Expansion</div><div class="nm">Africa+</div></div>
+        <div class="prop"><div class="mono">Education</div><div class="nm">Supermind</div></div>
+      </div>
+      <div style="margin-top:32px" class="rv rv-d3">
+        <a class="btn ghost" href="press/High_Lvl_Daily_One_Sheet.pdf" target="_blank" rel="noopener"><span>Download the one-sheet</span><span class="arr"></span></a>
+      </div>
+    </div>
+    <form class="rv rv-d1" data-form="invest" novalidate>
+      <div class="f2">
+        <div class="fld"><label for="i-name">Name</label><input id="i-name" name="name" type="text" required autocomplete="name"></div>
+        <div class="fld"><label for="i-org">Organization</label><input id="i-org" name="org" type="text" autocomplete="organization"></div>
+      </div>
+      <div class="f2">
+        <div class="fld"><label for="i-email">Email</label><input id="i-email" name="email" type="email" required autocomplete="email"></div>
+        <div class="fld"><label for="i-int">Interest</label>
+          <select id="i-int" name="interest" required>
+            <option value="">Select</option>
+            <option>Sponsor</option>
+            <option>Invest</option>
+            <option>Partner</option>
+            <option>Press</option>
+          </select></div>
+      </div>
+      <div class="fld"><label for="i-note">Note</label><textarea id="i-note" name="note" rows="3"></textarea></div>
+      <div class="f-foot"><button class="btn" type="submit"><span>Start the conversation</span><span class="arr"></span></button><span class="f-msg" aria-live="polite"></span></div>
+    </form>
+  </div>
+</section>
+
+<!-- ============================ PRESS ============================ -->
+<section class="sec wrap" id="press">
+  <div class="press">
+    <div>
+      <div class="eyebrow rv">09 &nbsp;/&nbsp; Press</div>
+      <div class="seen rv rv-d1" style="margin-top:18px">
+        <span class="mono muted">As seen on</span>
+        <span class="lg">High Lvl Conversations</span>
+      </div>
+    </div>
+    <div class="rv rv-d2" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:flex-start">
+      <a class="pill" href="mailto:19keys@19keys.com"><i></i><span>19keys@19keys.com</span></a>
+      <a class="pill" href="press/High_Lvl_Daily_One_Sheet.pdf" target="_blank" rel="noopener"><span>One-sheet (PDF)</span></a>
+      <a class="pill" href="assets/01_wordmark_transparent.png" target="_blank" rel="noopener"><span>Wordmark (PNG)</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ NEWSLETTER ============================ -->
+<section class="news" id="newsletter">
+  <div class="wrap sec inner">
+    <div>
+      <div class="eyebrow rv">10 &nbsp;/&nbsp; Newsletter</div>
+      <h2 class="rv rv-d1" style="margin-top:18px">Get the desk in your inbox every morning<span class="sq"></span></h2>
+    </div>
+    <form class="rv rv-d2" data-form="newsletter" novalidate>
+      <div class="fld"><label for="n-email">Email</label><input id="n-email" name="email" type="email" required autocomplete="email" placeholder="you@domain.com"></div>
+      <button class="btn" type="submit"><span>Subscribe</span><span class="arr"></span></button>
+      <span class="f-msg" aria-live="polite" style="grid-column:1 / -1"></span>
+    </form>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer>
+  <div class="foot-grid">
+    <div>
+      <div class="wm foot-wm">
+        <div class="wm-l1">HIGH - LVL</div>
+        <div class="wm-l2">DAILY<span class="dot"></span></div>
+        <div class="wm-rule"></div>
+        <div class="wm-sub">A HIGH - LVL NETWORK production</div>
+      </div>
+    </div>
+    <div class="foot-links">
+      <div class="eyebrow" style="margin-top:0">HIGH - LVL NETWORK</div>
+      <a href="https://19keys.com" target="_blank" rel="noopener">19keys.com</a>
+      <a href="https://ziion.io" target="_blank" rel="noopener">ziion.io</a>
+      <a href="https://phl-v2.vercel.app" target="_blank" rel="noopener">Project High Lvl</a>
+      <div class="eyebrow">The show</div>
+      <a href="mailto:19keys@19keys.com">19keys@19keys.com</a>
+      <a href="https://x.com/highlvldaily" target="_blank" rel="noopener">@highlvldaily on X</a>
+      <a href="https://instagram.com/highlvldaily" target="_blank" rel="noopener">@highlvldaily on Instagram</a>
+      <a href="https://youtube.com/@19keys" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://19keys.substack.com" target="_blank" rel="noopener">Substack</a>
+      <a href="#advertise">Advertise</a>
+    </div>
+  </div>
+  <div class="foot-bottom mono">
+    <span>&copy; 2026 High - Lvl Media</span>
+    <span>Weekdays 4:44pm PT · 7:44pm ET</span>
+  </div>
+</footer>
+
+</main>
+
+<!-- Lenis smooth scroll (optional; the page runs without it) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lenis/1.1.18/lenis.min.js" crossorigin="anonymous"></script>
+<script>
+/* ============================================================
+   HIGH - LVL DAILY · site script
+   ============================================================ */
+const FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbwqURwkxJjwEIxpysSrr59lK9kHAXf3goi2LCDhzgeEyb8SwsPS0L0ia7Jy54F1HR3MvA/exec"; // Google Apps Script web app URL. Leave empty to fall back to mailto:.
+const LATEST_EPISODE_URL = "https://www.youtube.com/@19KEYS"; // paste the newest episode URL here after each show
+const DESK_CODE = "ziion"; // access code for the private Pitch tab
+const CONTACT_EMAIL = "19keys@19keys.com";
+
+(() => {
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const fine = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+
+  /* ---------- smooth scroll (Lenis if present) ---------- */
+  let lenis = null;
+  if (window.Lenis && !reduce) {
+    try {
+      lenis = new Lenis({ lerp: 0.09, wheelMultiplier: 1, smoothWheel: true });
+      const raf = (t) => { lenis.raf(t); requestAnimationFrame(raf); };
+      requestAnimationFrame(raf);
+      document.querySelectorAll('a[href^="#"]').forEach(a => {
+        a.addEventListener("click", (e) => {
+          const id = a.getAttribute("href");
+          const el = id.length > 1 && document.querySelector(id);
+          if (el) { e.preventDefault(); lenis.scrollTo(el, { offset: -72, duration: 1.4 }); }
+        });
+      });
+    } catch (e) { lenis = null; }
+  }
+
+  /* ---------- cursor ---------- */
+  if (fine && !reduce) {
+    document.body.classList.add("has-cursor");
+    const dot = document.querySelector(".cur-dot"), ring = document.querySelector(".cur-ring");
+    let mx = innerWidth / 2, my = innerHeight / 2, rx = mx, ry = my, shown = false;
+    addEventListener("mousemove", (e) => {
+      mx = e.clientX; my = e.clientY;
+      if (!shown) { shown = true; dot.style.opacity = ring.style.opacity = "1"; }
+      dot.style.transform = `translate3d(${mx}px,${my}px,0)`;
+    }, { passive: true });
+    addEventListener("mouseleave", () => { dot.style.opacity = ring.style.opacity = "0"; shown = false; });
+    const loop = () => {
+      rx += (mx - rx) * 0.16; ry += (my - ry) * 0.16;
+      ring.style.transform = `translate3d(${rx}px,${ry}px,0)`;
+      requestAnimationFrame(loop);
+    };
+    loop();
+    const hov = "a, button, .seg, .ep, .prop, .chk, label.chk";
+    const txt = "input:not([type=checkbox]), textarea";
+    document.addEventListener("mouseover", (e) => {
+      if (e.target.closest(txt)) { ring.classList.add("is-text"); ring.classList.remove("is-hover"); }
+      else if (e.target.closest(hov)) { ring.classList.add("is-hover"); ring.classList.remove("is-text"); }
+      else ring.classList.remove("is-hover", "is-text");
+    });
+  }
+
+  /* ---------- HUD clock: countdown to next 4:44pm PT weekday, LIVE 4:44-5:14 ---------- */
+  const hud = document.getElementById("hud"), hudT = document.getElementById("hud-t"), hudL = document.getElementById("hud-lbl");
+  const LAUNCH = { y: 2026, m: 10, d: 5 }; // Monday October 5, 2026
+  const fmt = new Intl.DateTimeFormat("en-US", { timeZone: "America/Los_Angeles", hourCycle: "h23", year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric" });
+  const ptParts = (date) => {
+    const o = {}; fmt.formatToParts(date).forEach(p => { if (p.type !== "literal") o[p.type] = parseInt(p.value, 10); });
+    return o;
+  };
+  const pad = (n) => String(n).padStart(2, "0");
+  function tick() {
+    const now = new Date();
+    const p = ptParts(now);
+    // PT wall clock as a UTC-based Date so we can do date math in wall-clock space
+    const wall = Date.UTC(p.year, p.month - 1, p.day, p.hour, p.minute, p.second);
+    const dow = new Date(wall).getUTCDay(); // 0 Sun .. 6 Sat
+    const minutes = p.hour * 60 + p.minute;
+    const launched = wall >= Date.UTC(LAUNCH.y, LAUNCH.m - 1, LAUNCH.d, 16, 44, 0);
+    const isWeekday = dow >= 1 && dow <= 5;
+    if (launched && isWeekday && minutes >= 16 * 60 + 44 && minutes < 17 * 60 + 14) {
+      hud.classList.add("is-live"); hudL.textContent = "Live"; hudT.textContent = "On air";
+      return;
+    }
+    hud.classList.remove("is-live");
+    let target;
+    if (!launched) {
+      target = Date.UTC(LAUNCH.y, LAUNCH.m - 1, LAUNCH.d, 16, 44, 0);
+      hudL.textContent = "Premiere in";
+    } else {
+      let t = Date.UTC(p.year, p.month - 1, p.day, 16, 44, 0);
+      let d = dow;
+      if (wall >= t || d === 0 || d === 6) {
+        do { t += 864e5; d = (d + 1) % 7; } while (d === 0 || d === 6);
+      }
+      target = t;
+      hudL.textContent = "Next episode";
+    }
+    let diff = Math.max(0, Math.floor((target - wall) / 1000));
+    const dd = Math.floor(diff / 86400); diff -= dd * 86400;
+    const hh = Math.floor(diff / 3600); diff -= hh * 3600;
+    const mm = Math.floor(diff / 60); const ss = diff - mm * 60;
+    hudT.textContent = (dd > 0 ? dd + "d " : "") + pad(hh) + ":" + pad(mm) + ":" + pad(ss);
+  }
+  tick(); setInterval(tick, 1000);
+
+  /* ---------- scroll-driven: hero parallax + kinetic type + pinned words ---------- */
+  const heroImgs = [...document.querySelectorAll(".diptych img")];
+  const kinLines = [...document.querySelectorAll(".kin .ln")];
+  const hero = document.getElementById("hero");
+  const pin = document.getElementById("manifesto");
+  const wordsEl = document.getElementById("words");
+  const invest = document.getElementById("invest");
+  // split manifesto into words (preserve .k key words)
+  (() => {
+    const nodes = [...wordsEl.childNodes]; wordsEl.innerHTML = "";
+    nodes.forEach(n => {
+      const key = n.nodeType === 1 && n.classList.contains("k");
+      (n.textContent || "").split(/\s+/).filter(Boolean).forEach(w => {
+        const s = document.createElement("span"); s.className = "w" + (key ? " k" : ""); s.textContent = w; wordsEl.appendChild(s);
+      });
+    });
+  })();
+  const words = [...wordsEl.querySelectorAll(".w")];
+  let lastY = -1;
+  function onScroll() {
+    const y = window.scrollY || window.pageYOffset;
+    if (y === lastY) { requestAnimationFrame(onScroll); return; }
+    lastY = y;
+    if (!reduce) {
+      const hh = hero.offsetHeight;
+      if (y < hh) {
+        heroImgs.forEach(img => { img.style.transform = `translate3d(0,${-(y * parseFloat(img.dataset.para))}px,0)`; });
+        kinLines.forEach(l => { l.style.transform = `translate3d(${y * parseFloat(l.dataset.kx)}px,${y * 0.12}px,0)`; });
+      }
+    }
+    // header color over the paper section
+    const ir = invest.getBoundingClientRect();
+    document.body.classList.toggle('on-paper', ir.top < 44 && ir.bottom > 44);
+    // pinned words
+    const r = pin.getBoundingClientRect();
+    const total = pin.offsetHeight - innerHeight;
+    const prog = Math.min(1, Math.max(0, -r.top / total));
+    const cut = Math.floor(prog * 1.15 * words.length);
+    words.forEach((w, i) => w.classList.toggle("on", i < cut));
+    requestAnimationFrame(onScroll);
+  }
+  requestAnimationFrame(onScroll);
+
+  /* ---------- reveals ---------- */
+  const io = new IntersectionObserver((es) => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+  document.querySelectorAll(".rv").forEach(el => io.observe(el));
+
+  /* ---------- counters ---------- */
+  const ease = (t) => 1 - Math.pow(1 - t, 4);
+  const cio = new IntersectionObserver((es) => es.forEach(e => {
+    if (!e.isIntersecting) return; cio.unobserve(e.target);
+    const stat = e.target; stat.classList.add("in");
+    const n = stat.querySelector("[data-count]"); const end = parseFloat(n.dataset.count); const suf = n.dataset.suffix || ""; const comma = n.dataset.format === "comma";
+    const t0 = performance.now(), dur = reduce ? 1 : 1800;
+    const step = (t) => {
+      const k = ease(Math.min(1, (t - t0) / dur)); const v = Math.round(end * k);
+      n.textContent = (comma ? v.toLocaleString("en-US") : v) + suf;
+      if (k < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }), { threshold: 0.4 });
+  document.querySelectorAll(".stat").forEach(el => cio.observe(el));
+
+  /* ---------- ticker: duplicate for seamless loop ---------- */
+  const track = document.getElementById("ticker-track");
+  track.innerHTML += track.innerHTML;
+
+  /* ---------- latest episode + private desk ---------- */
+  const ll = document.getElementById("latest-link"); if (ll) ll.href = LATEST_EPISODE_URL;
+  const lockForm = document.getElementById("lock-form"), portal = document.getElementById("portal"), lockMsg = document.getElementById("lock-msg");
+  const openPortal = () => { if (lockForm) lockForm.hidden = true; if (portal) portal.hidden = false; };
+  try { if (localStorage.getItem("hld-desk") === "1") openPortal(); } catch (e) {}
+  if (lockForm) lockForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const v = (lockForm.code.value || "").trim().toLowerCase();
+    if (v === DESK_CODE) { try { localStorage.setItem("hld-desk", "1"); } catch (err) {} openPortal(); }
+    else { lockMsg.textContent = "That code does not open this door."; lockMsg.classList.remove("ok"); lockForm.code.value = ""; lockForm.code.focus(); }
+  });
+
+  /* ---------- forms ---------- */
+  document.querySelectorAll("form[data-form]").forEach(form => {
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const msg = form.querySelector(".f-msg"); const btn = form.querySelector("button[type=submit]");
+      if (!form.checkValidity()) { msg.textContent = "Fill the required fields."; msg.classList.remove("ok"); form.querySelector(":invalid")?.focus(); return; }
+      const data = { form: form.dataset.form, page: location.href, ts: new Date().toISOString() };
+      new FormData(form).forEach((v, k) => { data[k] = v; });
+      btn.disabled = true; msg.textContent = "Sending"; msg.classList.remove("ok");
+      const done = () => { msg.textContent = "Sent. The desk has it."; msg.classList.add("ok"); form.reset(); btn.disabled = false; };
+      if (FORM_ENDPOINT) {
+        try {
+          // text/plain avoids a CORS preflight; Apps Script reads e.postData.contents
+          await fetch(FORM_ENDPOINT, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(data) });
+          done();
+        } catch (err) { msg.textContent = "Could not send. Email " + CONTACT_EMAIL; btn.disabled = false; }
+      } else {
+        const subject = "HIGH - LVL DAILY · " + data.form;
+        const body = Object.entries(data).filter(([k]) => !["page", "ts"].includes(k)).map(([k, v]) => k + ": " + v).join("\n");
+        location.href = "mailto:" + CONTACT_EMAIL + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+        done();
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
